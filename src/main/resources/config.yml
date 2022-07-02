@@ -1,0 +1,32 @@
+free-rank:
+  command: "lp user {player} group add VIP"
+  broadcast:
+    enabled: true
+    message:
+      - "{CENTER} &8&l&m----------------------------------------"
+      - "{CENTER} &r"
+      - "{CENTER} &e&lFREE RANK"
+      - "{CENTER} &b{player}&f, has claimed his &aVIP &frank! &7(/freerank)"
+      - "{CENTER} &r"
+      - "{CENTER} &8&l&m-----------------------------------------"
+  titles:
+    enabled: true
+    title: "&e&lFREE RANK"
+    subtitle: "&fYou have claimed &aVIP &frank!"
+  sounds:
+    enabled: true
+    sound: "CHICKEN_EGG_POP"
+  claimed:
+    - "{CENTER} &8&l&m----------------------------------------"
+    - "{CENTER} &r"
+    - "{CENTER} &e&lFREE RANK"
+    - "{CENTER} &fCongratulations &b{player}&f, You have claimed the"
+    - "{CENTER} &ffree &a&lVIP &frank!"
+    - "{CENTER} &r"
+    - "{CENTER} &8&l&m-----------------------------------------"
+
+messages:
+  reloaded: "&aYou have successfully reloaded in &f{time} &ams!"
+  player-only: "&cYou must be a player to &d{action}&c."
+  no-permission: "&cYou don't have permission to &d{action}&c."
+  already-claimed: "&cYou have already claimed &aVIP &crank!"

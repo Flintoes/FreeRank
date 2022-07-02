@@ -1,0 +1,7 @@
+name: FreeRank
+version: 1.0.0-SNAPSHOT
+main: dev.flintoes.main.FreeRank
+author: Flintoes
+
+commands:
+  freerank: { description: "Claim a free rank." }
